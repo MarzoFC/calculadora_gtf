@@ -1,18 +1,17 @@
-// Anotaciones básicas de Spring
+// Anotaciones basicas de Spring
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-// Validación (Spring Boot 2.x usa javax.validation)
+// Validacion
 import javax.validation.Valid;
 
 // DTOs locales
-import com.example.calculadora.dto.OperacionDTO;
-import com.example.calculadora.dto.ResultadoDTO;
+import dto.OperacionDTO;
+import dto.ResultadoDTO;
 
 // Servicio
-import com.example.calculadora.service.CalculadoraService;
+import service.CalculadoraService;
 import org.springframework.beans.factory.annotation.Autowired;
-
 
 @RestController
 @RequestMapping("/api/calculadora")

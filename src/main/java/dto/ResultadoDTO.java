@@ -1,3 +1,9 @@
+package dto;
+
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+
+
 public class ResultadoDTO {
     private double resultado;
     
@@ -5,5 +11,8 @@ public class ResultadoDTO {
         this.resultado = resultado;
     }
     
-    // Getter
+    public double getResultado() {
+        return resultado;
+    }
+    
 }
