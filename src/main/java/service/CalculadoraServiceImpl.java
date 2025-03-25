@@ -1,0 +1,24 @@
+@Service
+public class CalculadoraServiceImpl implements CalculadoraService {
+    
+    private final Map<String, Operacion> operaciones;
+    
+    @Autowired
+    public CalculadoraServiceImpl(List<Operacion> operacionList) {
+        operaciones = operacionList.stream()
+            .collect(Collectors.toMap(
+                Operacion::getNombreOperacion,
+                Function.identity()
+            ));
+    }
+    
+    @Override
+    public double sumar(double numero1, double numero2) {
+        return operaciones.get("sumar").ejecutar(numero1, numero2);
+    }
+    
+    @Override
+    public double restar(double numero1, double numero2) {
+        return operaciones.get("restar").ejecutar(numero1, numero2);
+    }
+}
