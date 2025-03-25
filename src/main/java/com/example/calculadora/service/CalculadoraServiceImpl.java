@@ -1,5 +1,4 @@
-package service;
-
+package main.java.com.example.calculadora.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,8 +9,7 @@ import java.util.stream.Collectors;
 
 import java.util.function.Function;
 
-import service.CalculadoraService;
-import service.Operacion;
+import main.java.com.example.calculadora.service.*;
 
 @Service
 public class CalculadoraServiceImpl implements CalculadoraService {

@@ -1,5 +1,4 @@
-package service;
-
+package main.java.com.example.calculadora.service;
 
 public interface CalculadoraService {
     double sumar(double numero1, double numero2);

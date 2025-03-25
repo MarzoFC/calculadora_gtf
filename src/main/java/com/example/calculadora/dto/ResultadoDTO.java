@@ -1,4 +1,4 @@
-package dto;
+package main.java.com.example.calculadora.dto;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

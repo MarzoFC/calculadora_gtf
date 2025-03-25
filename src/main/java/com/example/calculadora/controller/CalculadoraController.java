@@ -1,3 +1,5 @@
+package main.java.com.example.calculadora.controller;
+
 // Anotaciones basicas de Spring
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -6,11 +8,10 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 // DTOs locales
-import dto.OperacionDTO;
-import dto.ResultadoDTO;
+import main.java.com.example.calculadora.dto.*;
 
 // Servicio
-import service.CalculadoraService;
+import main.java.com.example.calculadora.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @RestController

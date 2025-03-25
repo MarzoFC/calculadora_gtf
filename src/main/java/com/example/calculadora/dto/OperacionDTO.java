@@ -1,4 +1,4 @@
-package dto;
+package main.java.com.example.calculadora.dto;
 
 import javax.validation.constraints.NotNull;
 

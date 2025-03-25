@@ -1,4 +1,4 @@
-package calculadora;
+package main.java.com.example.calculadora;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

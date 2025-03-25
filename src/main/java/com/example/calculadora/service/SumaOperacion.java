@@ -1,8 +1,8 @@
-package service;
+package main.java.com.example.calculadora.service;
 
 import org.springframework.stereotype.Service;
 
-import service.Operacion;
+import main.java.com.example.calculadora.service.*;
 
 @Service
 public class SumaOperacion implements Operacion {
